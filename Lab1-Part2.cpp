@@ -6,10 +6,10 @@ int main() {
   // Correct this error, test your changes and commit the changes.
   int guess = 0, solution = 15;
   char answer = 'y';
-  cout << "Would you like to play? (y/n): "; // changes '222' to 'to'f
+  cout << "Would you like to play? (y/n): "; // changed '222' to 'to'.
   cin >> answer;
 
-  while (answer == 'y' || answer == 'Y') { // changed the while loop condition to check if answer is 'y' or 'Y', instead of while(answer != 'n'.
+  while (answer == 'y' || answer == 'Y') { // changed the while loop condition to check if answer is 'y' or 'Y', instead of while(answer != 'n').
     cout << "Enter your guess between 0 & 50: ";
     cin >> guess;
 
